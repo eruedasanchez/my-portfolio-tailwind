@@ -1,1 +1,1 @@
-### My portfolio with Tailwind
+### My portfolio with TailwindCSS
