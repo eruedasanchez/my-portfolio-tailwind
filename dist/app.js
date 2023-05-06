@@ -64,3 +64,30 @@ darkButton.addEventListener('click', function() {
     }
 });
 
+/****************************** VARIABLES JOB SECTION ******************************/
+
+const jobSection = document.querySelector('#jobSection');
+const articles = document.querySelectorAll('#jobSection article');
+
+jobSection.addEventListener('click', (event)=>{
+    const id = event.target.dataset.id; // Representa elementos sobre el cual hagamos click (cuando se hace click en cada trabajo, eso representa un event target)
+
+    /* Enlazar id con la descripcion del trabajo */
+    if(id){
+        articles.forEach((article)=>{
+            article.classList.add('hidden'); // Ocultamiento de secciones porque solo se necesita mostrtar una 
+        });
+        /* Que descripcion hay que mostrar */
+        const element = document.getElementById(id);
+        element.classList.remove('hidden');
+    }
+});
+
+const jobLinks = document.querySelectorAll('#jobSection button');
+const firstLink = document.querySelector('#link-one');
+
+jobLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+        firstLink.classList.remove('border-sky-500', 'bg-white', 'dark:bg-slate-700');
+    });
+});
