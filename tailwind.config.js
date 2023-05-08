@@ -7,9 +7,11 @@ module.exports = {
     extend: {
       colors:{
         primary: '#0f172a',
+        darkTheme: '#192229',
+        textdarkTheme: '#C8CDD0',
       },
       fontFamily:{
-        roboto:['Roboto', ...defaultTheme.fontFamily.sans] /* Si el usuario no tiene roboto, usa default theme */
+        caslon:['Libre Caslon Text', defaultTheme.fontFamily.serif], /* Si el usuario no tiene roboto, usa default theme */
       }
     },
   },
