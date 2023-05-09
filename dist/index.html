@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
-    <script src="./app.js" defer></script> <!-- defer: Sigue procesando el HTML, construye el DOM. El script carga “en segundo plano” y se ejecuta cuando el DOM esta completo -->
+    <script src="./app.js" defer></script> <!-- defer: Sigue procesando el HTML, construye el DOM. El script carga “en segundo plano” y se ejecuta cuando el DOM esta completo --> 
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
         if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -19,7 +19,6 @@
             document.documentElement.classList.remove('dark')
         }
     </script>
-    
 </head>
 <body class="bg-zinc-100 text-stone-800 dark:bg-darkThemeBackground dark:text-darkThemeText font-caslon">
     <header>
@@ -51,24 +50,24 @@
         <!-- Seccion HERO-->
         <section class="my-0 flex flex-col lg:flex-row lg:h-[850px]">
             <div class="p-10 lg:w-[80%] lg:h-[500px] lg:self-center">
-                <h1 class="text-sky-600 dark:text-sky-300 text-2xl font-bold tracking-widest leading-10">Hola soy,</h1>
-                <p class="py-2 text-3xl font-bold text-slate-600 dark:text-slate-300">Ezequiel Rueda Sanchez</p>
-                <p class="text-2xl font-bold text-slate-500 dark:text-slate-600">Desarrollo aplicaciones web para un mundo mejor</p>
-                <p class="mt-5 text-lg">Soy ingeniero de software que se especializa en diseñar y desarrollar aplicaciones WEB excepcionales. Actualmente, estoy enfocado en crear productos accesibles para el mercado de la tecnologia educativa</p>
+                <h1 class="text-greensheet text-2xl font-bold tracking-widest leading-10">Bienvenidos</h1>
+                <p class="py-3 text-3xl font-bold text-contenido dark:text-slate-300">Ezequiel Rueda Sanchez</p>
+                <p class="text-2xl font-bold text-contenido dark:text-slate-300">Desarrollador de aplicaciones web rapidas y eficientes con diseño</p>
+                <p class="mt-5 text-lg">Soy desarrollador frontend que se especializa en crear y diseñar aplicaciones web. Ademas, me encuentro realizando el ultimo año de la carrera de la Lic. Ciencias de la Computacion en la Universidad de Buenos Aires. Actualmente, estoy enfocado en crear productos demandandos para el mercado de la tecnologia y en el desarrollo backend.</p>
                 <!-- REDES SOCIALES -->
                 <div class="py-6">
-                    <a href="#" class="pr-2 text-2xl hover:text-sky-600"><i class="bi bi-twitter px-2"></i></a>
-                    <a href="#" class="pr-2 text-2xl hover:text-sky-600"><i class="bi bi-instagram px-2"></i></a>
-                    <a href="#" class="pr-2 text-2xl hover:text-sky-600"><i class="bi bi-linkedin px-2"></i></a>
-                    <a href="#" class="pr-2 text-2xl hover:text-sky-600"><i class="bi bi-github px-2"></i></a>
+                    <a href="#" class="pr-2 text-2xl hover:text-greensheet"><i class="bi bi-linkedin px-3"></i></a>
+                    <a href="#" class="pr-2 text-2xl hover:text-greensheet"><i class="bi bi-github px-3"></i></a>
+                    <a href="#" class="pr-2 text-2xl hover:text-greensheet"><i class="bi bi-twitter px-3"></i></a>
+                    <a href="#" class="pr-2 text-2xl hover:text-greensheet"><i class="bi bi-instagram px-3"></i></a>
                 </div>
                 <div>
-                    <button class="border-2 rounded border-sky-500 p-4 w-[250px] text-lg tracking widest hover:bg-sky-500 hover:dark:text-slate-900">Contactame</button>
+                    <button class="border-2 rounded border-greensheet p-4 w-[250px] text-lg tracking-normal hover:bg-greensheet hover:dark:text-slate-900">Contactame</button>
                 </div>
             </div>
             <!-- Contenedor para la imagen -->
-            <div class="my-10 w-full">
-                <div class="w-[300px] h-[320px] m-auto bg-[url('./img/profile.jpg')] lg:bg-[url('./img/profile.jpg')] bg-cover rounded-lg lg:w-[100%] lg:h-[100%] lg:bg-center lg:no-repeat lg:bg-[length:617px_840px]"></div>
+            <div class="mt-10 w-full">
+                <div class="w-[300px] h-[320px] m-auto bg-[url('./img/profile.jpg')] bg-center lg:bg-[url('./img/profile.jpg')] bg-cover rounded-lg lg:w-[60%] lg:h-[60%] lg:bg-center lg:no-repeat lg:bg-[length:450px_520px]"></div>
             </div>
         </section>
 
@@ -243,7 +242,5 @@
             <a href="#"><i class="bi bi-github hover:text-sky-500 px-2"></i></a>
         </div>
     </footer>
-    
-    
 </body>
 </html>

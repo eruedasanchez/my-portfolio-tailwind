@@ -6,17 +6,17 @@
 
 .br-2.animado{
     /* span */
-    opacity: 0;
+    opacity: 0; /* Oculta la linea del medio porque se quiere forma una cruz */
 }
 
 .br-1.animado{
     /* span */
     transform: rotate(45deg) translate(9px, 8px);
-    transform-origin: 0% 100%;                      /* El giro se produce en la parte derecha */
+    transform-origin: 0% 100%;                      /* La linea produce un giro hacia la derecha */
 }
 
 .br-3.animado{
     /* span */
     transform: rotate(-45deg) translate(-6px, 8px);
-    transform-origin: 0% 100%;                      /* El giro se produce en la parte derecha */
+    transform-origin: 0% 100%;                      /* La linea produce un giro hacia la izquierda */
 }
