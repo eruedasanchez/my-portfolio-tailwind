@@ -9,6 +9,9 @@ module.exports = {
         primary: '#0f172a',
         darkThemeBackground: '#192229',
         darkThemeText: '#C8CDD0',
+        claro: '#A0A7AC',
+        contenido: '#697477',
+        greensheet: '#A9D300',
       },
       fontFamily:{
         caslon:['Libre Caslon Text', defaultTheme.fontFamily.serif], /* Si el usuario no tiene roboto, usa default theme */
