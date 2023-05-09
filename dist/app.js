@@ -66,7 +66,6 @@ darkButton.addEventListener('click', function() {
 
 /****************************** VARIABLES JOB SECTION ******************************/
 
-/* 
 const jobSection = document.querySelector('#jobSection');
 const articles = document.querySelectorAll('#jobSection article');
 
@@ -76,7 +75,7 @@ jobSection.addEventListener('click', (event)=>{
     // Enlazar id con la descripcion del trabajo 
     if(id){
         articles.forEach((article)=>{
-            article.classList.add('hidden'); // Ocultamiento de secciones porque solo se necesita mostrtar una 
+            article.classList.add('hidden'); // Ocultamiento de secciones porque solo se necesita mostrar una 
         });
         // Que descripcion hay que mostrar 
         const element = document.getElementById(id);
@@ -84,13 +83,13 @@ jobSection.addEventListener('click', (event)=>{
     }
 });
 
+/* Sacar estilos al hacer click en cada empresa */
+
 const jobLinks = document.querySelectorAll('#jobSection button');
 const firstLink = document.querySelector('#link-one');
 
 jobLinks.forEach((link) => {
     link.addEventListener('click', () => {
-        firstLink.classList.remove('border-sky-500', 'bg-white', 'dark:bg-slate-700');
+        firstLink.classList.remove('border-greensheet', 'bg-white', 'dark:bg-slate-700');
     });
 });
-
-*/
