@@ -7,8 +7,8 @@ module.exports = {
     extend: {
       colors:{
         primary: '#0f172a',
-        darkTheme: '#192229',
-        textdarkTheme: '#C8CDD0',
+        darkThemeBackground: '#192229',
+        darkThemeText: '#C8CDD0',
       },
       fontFamily:{
         caslon:['Libre Caslon Text', defaultTheme.fontFamily.serif], /* Si el usuario no tiene roboto, usa default theme */
