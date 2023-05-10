@@ -90,6 +90,6 @@ const firstLink = document.querySelector('#link-one');
 
 jobLinks.forEach((link) => {
     link.addEventListener('click', () => {
-        firstLink.classList.remove('border-greensheet', 'bg-white', 'dark:bg-slate-700');
+        firstLink.classList.remove('border-outstanding', 'bg-white', 'dark:bg-slate-700');
     });
 });

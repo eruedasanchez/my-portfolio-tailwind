@@ -12,6 +12,12 @@ module.exports = {
         claro: '#A0A7AC',
         contenido: '#697477',
         greensheet: '#A9D300',
+        /** arranco de aca */
+        semiwhite: '#FEFEFE',
+        darkblue: '#272C31',
+        darkbluelight: '#838789',
+        outstanding: '#00C8E0',
+        daytheme: '#F9F9F9',
       },
       fontFamily:{
         caslon:['Libre Caslon Text', defaultTheme.fontFamily.serif], /* Si el usuario no tiene roboto, usa default theme */
