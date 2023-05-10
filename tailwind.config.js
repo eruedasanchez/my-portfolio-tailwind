@@ -20,7 +20,7 @@ module.exports = {
         daytheme: '#F9F9F9',
       },
       fontFamily:{
-        caslon:['Libre Caslon Text', defaultTheme.fontFamily.serif], /* Si el usuario no tiene roboto, usa default theme */
+        caslon:['Libre Caslon Text', ...defaultTheme.fontFamily.serif], /* Si el usuario no tiene roboto, usa default theme */
       }
     },
   },

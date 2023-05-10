@@ -6,7 +6,7 @@
 
 .br-2.animado{
     /* span */
-    opacity: 0; /* Oculta la linea del medio porque se quiere forma una cruz */
+    opacity: 0; /* Oculta la linea del medio para que se forme una cruz */
 }
 
 .br-1.animado{

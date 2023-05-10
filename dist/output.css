@@ -713,14 +713,14 @@ video {
   border-color: rgb(0 200 224 / var(--tw-border-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-greensheet {
   --tw-bg-opacity: 1;
   background-color: rgb(169 211 0 / var(--tw-bg-opacity));
-}
-
-.bg-outstanding {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 200 224 / var(--tw-bg-opacity));
 }
 
 .bg-semiwhite {
@@ -728,19 +728,14 @@ video {
   background-color: rgb(254 254 254 / var(--tw-bg-opacity));
 }
 
+.bg-sky-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 249 255 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-zinc-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
-}
-
-.bg-daytheme {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 249 249 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\/img\/profile\.jpg\'\)\] {
@@ -769,6 +764,10 @@ video {
 
 .p-7 {
   padding: 1.75rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-10 {
@@ -804,11 +803,6 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .py-2 {
@@ -847,7 +841,7 @@ video {
 }
 
 .font-caslon {
-  font-family: Libre Caslon Text, ui-serif,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-family: Libre Caslon Text, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-2xl {
@@ -883,8 +877,8 @@ video {
   font-weight: 700;
 }
 
-.font-light {
-  font-weight: 300;
+.font-medium {
+  font-weight: 500;
 }
 
 .font-normal {
@@ -901,6 +895,10 @@ video {
 
 .tracking-wide {
   letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .tracking-widest {
@@ -927,6 +925,11 @@ video {
   color: rgb(0 200 224 / var(--tw-text-opacity));
 }
 
+.text-sky-600 {
+  --tw-text-opacity: 1;
+  color: rgb(2 132 199 / var(--tw-text-opacity));
+}
+
 .text-slate-600 {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
@@ -937,9 +940,9 @@ video {
   color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 
-.text-stone-800 {
+.text-stone-900 {
   --tw-text-opacity: 1;
-  color: rgb(41 37 36 / var(--tw-text-opacity));
+  color: rgb(28 25 23 / var(--tw-text-opacity));
 }
 
 .opacity-80 {
@@ -959,7 +962,7 @@ video {
 .br-2.animado{
   /* span */
   opacity: 0;
-  /* Oculta la linea del medio porque se quiere forma una cruz */
+  /* Oculta la linea del medio para que se forme una cruz */
 }
 
 .br-1.animado{
@@ -1001,6 +1004,11 @@ video {
   color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
+.hover\:text-sky-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(2 132 199 / var(--tw-text-opacity));
+}
+
 .hover\:opacity-100:hover {
   opacity: 1;
 }
@@ -1031,14 +1039,9 @@ video {
   --tw-ring-color: rgb(96 165 250 / var(--tw-ring-opacity));
 }
 
-:is(.dark .dark\:bg-darkThemeBackground) {
+:is(.dark .dark\:bg-primary) {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 34 41 / var(--tw-bg-opacity));
-}
-
-:is(.dark .dark\:bg-greensheet) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(169 211 0 / var(--tw-bg-opacity));
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:bg-slate-700) {
@@ -1051,19 +1054,14 @@ video {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:text-claro) {
-  --tw-text-opacity: 1;
-  color: rgb(160 167 172 / var(--tw-text-opacity));
+:is(.dark .dark\:bg-white) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:text-cyan-50) {
   --tw-text-opacity: 1;
   color: rgb(236 254 255 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-darkThemeText) {
-  --tw-text-opacity: 1;
-  color: rgb(200 205 208 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-slate-200) {
@@ -1131,14 +1129,13 @@ video {
     justify-content: center;
   }
 
+  .md\:bg-inherit {
+    background-color: inherit;
+  }
+
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-  }
-
-  .md\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 
   .md\:py-0 {
@@ -1148,6 +1145,11 @@ video {
 
   .md\:text-center {
     text-align: center;
+  }
+
+  :is(.dark .md\:dark\:bg-primary) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
   }
 }
 

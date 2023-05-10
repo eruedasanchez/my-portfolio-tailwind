@@ -20,34 +20,34 @@
         }
     </script>
 </head>
-<body class="bg-daytheme dark:bg-darkThemeBackground dark:text-darkThemeText font-caslon">
+<body class="bg-sky-50 text-stone-900 font-caslon dark:bg-primary dark:text-cyan-50">
     <header>
         <!-- INCIO DEL MENU -->
-        <nav class="bg-semiwhite flex justify-between py-10 m-auto px-10 text-lg font-light tracking-wide md:items-center">
+        <nav class="flex justify-between p-8 m-auto text-lg font-medium tracking-wider md:items-center">
             <a href="./index.html"><img src="./img/logo-it.png" alt="logo it" width="100"></a>
-            <div id="menu" class="p-7 h-[380px] w-[320px] flex flex-col items-star justify-around rounded-lg text-darkbluelight dark:text-claro md:flex-row md:w-full md:py-0 md:h-[50px] max-md:hidden">
-                <ul class="flex h-5/6 flex-col justify-around md:flex-row md:justify-center md:w-full">
-                    <li class="md:px-6 pt-4 hover:text-outstanding"><a href="./pages/quien-soy.html">Acerca de mi</a></li>
-                    <li class="md:px-5 pt-4 hover:text-outstanding"><a href="./pages/experiencia.html">Experiencia</a></li>
-                    <li class="md:px-5 pt-4 hover:text-outstanding"><a href="./pages/proyectos.html">Proyectos</a></li>
-                    <li class="md:px-5 pt-4 hover:text-outstanding"><a href="./pages/contactame.html">Contactame</a></li>
+            <div id="menu" class="bg-white p-7 w-[320px] h-[380px] flex flex-col justify-around items-star rounded-lg text-dark dark:bg-slate-800 dark:text-white md:bg-inherit md:w-full md:h-[50px] md:py-0 md:flex-row max-md:hidden md:dark:bg-primary">
+                <ul class="h-5/6 flex flex-col justify-around md:w-full md:flex-row md:justify-center">
+                    <li class="pt-4 hover:text-sky-600 md:px-5"><a href="./pages/quien-soy.html">About me</a></li>
+                    <li class="pt-4 hover:text-sky-600 md:px-5"><a href="./pages/experiencia.html">Experiencia</a></li>
+                    <li class="pt-4 hover:text-sky-600 md:px-5"><a href="./pages/proyectos.html">Proyectos</a></li>
+                    <li class="pt-4 hover:text-sky-600 md:px-5"><a href="./pages/contactame.html">Contactame</a></li>
                 </ul>
                 <!-- BOTON MODO OSCURO -->
                 <button id="darkButton">
-                    <i class="bi bi-moon-stars-fill text-2xl text-outstanding"></i>
+                    <i class="bi bi-moon-stars-fill text-2xl text-sky-600"></i>
                 </button>
             </div>
             <!-- BOTON MENU HAMBURGUESA (sin icono de bootstrap) -->
             <button id="menu-button" class="absolute top-10 right-12 md:hidden">
-                <span class="br-1 block bg-outstanding dark:bg-greensheet my-2 rounded-md h-[4px] w-[30px]"></span>
-                <span class="br-2 block bg-outstanding dark:bg-greensheet my-2 rounded-md h-[4px] w-[30px]"></span>
-                <span class="br-3 block bg-outstanding dark:bg-greensheet my-2 rounded-md h-[4px] w-[30px]"></span>
+                <span class="br-1 bg-black block my-2 rounded-md w-[30px] h-[4px] dark:bg-white"></span>
+                <span class="br-2 bg-black block my-2 rounded-md w-[30px] h-[4px] dark:bg-white"></span>
+                <span class="br-3 bg-black block my-2 rounded-md w-[30px] h-[4px] dark:bg-white"></span>
             </button>
         </nav>
         <!-- FIN DEL MENU -->
     </header>
     <main>
-        <!-- Seccion Informacion personal -->
+        <!-- INFORMACION PERSONAL -->
         <section class="my-0 flex flex-col lg:flex-row lg:h-[850px]">
             <div class="p-10 lg:w-[80%] lg:h-[500px] lg:self-center">
                 <h1 class="text-darkblue text-2xl font-bold tracking-widest leading-10">Bienvenidos. Soy</h1>

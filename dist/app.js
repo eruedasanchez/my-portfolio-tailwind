@@ -3,7 +3,7 @@
 const menuButton = document.querySelector('#menu-button');
 const menuItems = document.querySelector('#menu');
 const menuButtonSpans = document.querySelectorAll('#menu-button span');     // querySelectorAll porque son 3 spans 
-const links = document.querySelectorAll('#menu a');
+const links = document.querySelectorAll('#menu ul li a');
 
 /****************************** ABRIR MENU ******************************/
 
