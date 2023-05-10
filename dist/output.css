@@ -581,6 +581,11 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -886,6 +891,11 @@ video {
   padding-right: 0.25rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -928,6 +938,18 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .text-center {
@@ -1047,6 +1069,11 @@ video {
 .text-slate-500 {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+
+.text-sky-500 {
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
 .opacity-80 {
@@ -1444,8 +1471,32 @@ video {
     width: 24%;
   }
 
+  .lg\:w-\[22\%\] {
+    width: 22%;
+  }
+
   .lg\:max-w-\[800px\] {
     max-width: 800px;
+  }
+
+  .lg\:max-w-\[700px\] {
+    max-width: 700px;
+  }
+
+  .lg\:max-w-\[600px\] {
+    max-width: 600px;
+  }
+
+  .lg\:max-w-\[750px\] {
+    max-width: 750px;
+  }
+
+  .lg\:max-w-\[770px\] {
+    max-width: 770px;
+  }
+
+  .lg\:max-w-\[790px\] {
+    max-width: 790px;
   }
 
   .lg\:flex-row {
@@ -1527,6 +1578,21 @@ video {
   .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .lg\:pt-1 {

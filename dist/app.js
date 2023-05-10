@@ -64,7 +64,7 @@ darkButton.addEventListener('click', function() {
     }
 });
 
-/****************************** VARIABLES JOB SECTION ******************************/
+/****************************** VARIABLES SECCION DE TRABAJO ******************************/
 
 const jobSection = document.querySelector('#jobSection');
 const articles = document.querySelectorAll('#jobSection article');
@@ -90,6 +90,6 @@ const firstLink = document.querySelector('#link-one');
 
 jobLinks.forEach((link) => {
     link.addEventListener('click', () => {
-        firstLink.classList.remove('border-outstanding', 'bg-white', 'dark:bg-slate-700');
+        firstLink.classList.remove('border-sky-500', 'bg-white', 'dark:bg-slate-700');
     });
 });
